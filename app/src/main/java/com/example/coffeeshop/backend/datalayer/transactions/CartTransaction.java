@@ -10,12 +10,6 @@ import java.util.ArrayList;
 
 public class CartTransaction extends Transaction implements ICartContract {
 
-    /*
-    private String userName;
-    private String product;
-    private int amount;
-     */
-
     public CartTransaction(Context context) {
         super(context);
 

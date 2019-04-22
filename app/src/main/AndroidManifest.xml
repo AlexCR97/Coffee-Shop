@@ -7,17 +7,39 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:supportsRtl="true">
         <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name">
+            android:name=".frontend.activities.ViewProductActivity"
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:name=".frontend.activities.ViewCategoryProductsActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".frontend.activities.ViewUserActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".frontend.activities.AdminActivity"
+            android:label="@string/title_activity_admin"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".frontend.activities.SplashActivity"
+            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".frontend.activities.LoginActivity"
+            android:theme="@style/SplashTheme" />
+        <activity
+            android:name=".frontend.activities.SignUpActivity"
+            android:theme="@style/SplashTheme" />
+        <activity
+            android:name=".frontend.activities.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
     </application>
 
 </manifest>

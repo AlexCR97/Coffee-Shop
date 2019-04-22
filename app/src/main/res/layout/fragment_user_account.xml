@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <!-- HEADER -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.50"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/background_07">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mi perfil"
+            android:textColor="@color/colorText1"
+            android:textSize="30sp"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/icon_coffee"
+        android:layout_marginTop="-60dp"/>
+
+    <!-- CONTENT -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.50"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Mi perfil"
+            android:textSize="20sp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/textViewUserEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Mi perfil"
+            android:textSize="18sp"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/buttonEditProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/rounded_button"
+            android:text="Editar perfil"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/colorText1"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/buttonSignOut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/rounded_button2"
+            android:text="Cerrar sesion"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/colorText1"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

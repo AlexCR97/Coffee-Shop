@@ -5,7 +5,7 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".frontend.activities.MainActivity">
+    tools:context=".userlayer.activities.MainActivity">
 
     <FrameLayout
         android:id="@+id/fragmentContainerUser"

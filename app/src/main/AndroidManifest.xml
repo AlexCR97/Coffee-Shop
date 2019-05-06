@@ -9,20 +9,29 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true">
         <activity
-            android:name=".frontend.activities.ViewProductActivity"
+            android:name=".userlayer.activities.ViewSaleActivity"
             android:theme="@style/AppTheme"/>
         <activity
-            android:name=".frontend.activities.ViewCategoryProductsActivity"
+            android:name=".userlayer.activities.UserViewProductActivity"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".frontend.activities.ViewUserActivity"
+            android:name=".userlayer.activities.UserViewCategoryProductsActivity"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".frontend.activities.AdminActivity"
+            android:name=".userlayer.activities.ViewProductActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".userlayer.activities.ViewCategoryProductsActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".userlayer.activities.ViewUserActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".userlayer.activities.AdminActivity"
             android:label="@string/title_activity_admin"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".frontend.activities.SplashActivity"
+            android:name=".userlayer.activities.SplashActivity"
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,13 +40,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".frontend.activities.LoginActivity"
+            android:name=".userlayer.activities.LoginActivity"
             android:theme="@style/SplashTheme" />
         <activity
-            android:name=".frontend.activities.SignUpActivity"
+            android:name=".userlayer.activities.SignUpActivity"
             android:theme="@style/SplashTheme" />
         <activity
-            android:name=".frontend.activities.MainActivity"
+            android:name=".userlayer.activities.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme" />
     </application>
